@@ -1,0 +1,3440 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Aug  4 21:10:36 2022
+# Process ID: 3496
+# Current directory: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6360 C:\Users\hasan\Desktop\TOBB CS Hasan TUNA\21-22\SUMMER\BIL265\Project\Project_Final\Project_Final.xpr
+# Log file: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/vivado.log
+# Journal file: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 722.461 ; gain = 123.293
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:14:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737498A
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:22:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:22:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:25:03 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:25:03 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:27:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:27:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:30:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:30:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:33:06 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:33:06 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:36:40 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:36:40 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:39:12 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:39:12 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:42:01 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:42:01 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:45:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:45:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:47:50 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:47:50 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:50:01 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:50:01 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:52:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:52:33 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:57:18 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:57:18 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 21:59:27 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 21:59:27 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:12:50 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:12:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:13:11 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:13:11 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:23:09 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:23:09 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:28:50 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:28:50 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:37:31 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:37:31 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:40:00 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:40:00 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:41:30 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:41:30 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:43:34 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:43:34 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:45:56 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:45:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:48:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:48:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:57:06 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:57:06 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 22:58:52 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 22:58:52 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:02:07 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:02:07 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:04:19 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:04:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:06:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:06:33 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:09:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:09:35 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:11:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:11:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:18:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:18:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:21:49 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:21:49 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:23:27 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:23:27 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:26:23 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:26:23 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:31:02 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:31:02 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:33:57 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:33:57 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:35:49 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:35:50 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:38:13 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:38:13 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:40:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:40:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Aug  4 23:57:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Thu Aug  4 23:57:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:08:47 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:08:47 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:12:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:12:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:14:41 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:14:41 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:16:51 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:16:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:19:30 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:19:30 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:24:46 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:24:46 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:28:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:28:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:32:45 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:32:45 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:37:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:37:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:40:39 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:40:39 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:43:30 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:43:30 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:46:44 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:46:44 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:51:55 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:51:55 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 00:58:43 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 00:58:43 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:06:16 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:06:16 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:10:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:10:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:16:04 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:16:04 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:19:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:19:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:20:36 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:20:36 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:28:38 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:28:38 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:31:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:31:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:32:26 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:32:26 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:36:52 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:36:52 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:39:31 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:39:31 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:44:19 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:44:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:51:10 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:51:10 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:52:38 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:52:38 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:56:06 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:56:06 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 01:56:56 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 01:56:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 02:00:42 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 02:00:42 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'reset_runs' was cancelled
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 02:01:32 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 02:01:32 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 02:08:25 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 02:08:25 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 02:12:56 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 02:12:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/uartDeneme.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+close [ open {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/uart.v} w ]
+add_files {{C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/uart.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/ssegment.v} w ]
+add_files {{C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/ssegment.v}}
+update_compile_order -fileset sources_1
+set_property top controller [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 02:57:26 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 02:57:26 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 02:59:01 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 02:59:01 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:01:25 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:01:25 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:05:54 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:05:54 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:07:58 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:07:58 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:10:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:10:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737498A
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:15:14 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:15:14 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:22:46 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:22:46 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+close_hw
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:41:09 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:41:09 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737498A
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 03:51:48 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 03:51:48 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 04:06:07 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 04:06:07 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+set_property top tb_karekok [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 9 differs from formal bit length 1 for port 'clk' [C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v:6]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/hasan/Desktop/TOBB -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/hasan/Desktop/TOBB" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug  5 04:13:56 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_karekok_behav -key {Behavioral:sim_1:Functional:tb_karekok} -tclbatch {tb_karekok.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_karekok.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_karekok_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1932.805 ; gain = 41.980
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_karekok_behav -key {Behavioral:sim_1:Functional:tb_karekok} -tclbatch {tb_karekok.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_karekok.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_karekok_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1948.777 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+WARNING: [VRFC 10-1771] potential always loop found [C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_karekok_behav -key {Behavioral:sim_1:Functional:tb_karekok} -tclbatch {tb_karekok.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_karekok.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1948.777 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1948.777 ; gain = 0.000
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1948.777 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+WARNING: [VRFC 10-1771] potential always loop found [C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1948.777 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+relaunch_xsim_kernel: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1948.777 ; gain = 0.000
+INFO: [Common 17-344] 'relaunch_xsim_kernel' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 9 for port 'sayi' [C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v:7]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'sayi' is not permitted [C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v:7]
+ERROR: [VRFC 10-2922] 'karekok' expects 4 arguments [C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v:7]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+INFO: [Common 17-344] 'relaunch_sim' was cancelled
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Fri Aug  5 04:22:38 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1950.117 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1950.117 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1950.617 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+0
+0
+2
+1
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+2
+1
+2
+2
+2
+2
+2
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+0
+0
+2
+       200
+1
+2
+       300
+2
+       300
+2
+       300
+2
+       300
+1
+2
+       400
+2
+       400
+2
+       400
+2
+       400
+2
+       400
+2
+       400
+1
+2
+       500
+2
+       500
+2
+       500
+2
+       500
+2
+      1700
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+       200
+       300
+       300
+       300
+       300
+       400
+       400
+       400
+       400
+       400
+       400
+       500
+       500
+       500
+       500
+      1700
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+  3 kucuk        200
+  5 kucuk        300
+  6 kucuk        300
+  7 kucuk        300
+  8 kucuk        300
+ 10 kucuk        400
+ 11 kucuk        400
+ 12 kucuk        400
+ 13 kucuk        400
+ 14 kucuk        400
+ 15 kucuk        400
+ 17 kucuk        500
+ 18 kucuk        500
+ 19 kucuk        500
+ 20 kucuk        500
+280 kucuk       1700
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1950.617 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+     30000 kucuk        200
+     50000 kucuk        300
+     60000 kucuk        300
+     70000 kucuk        300
+     80000 kucuk        300
+    100000 kucuk        400
+    110000 kucuk        400
+    120000 kucuk        400
+    130000 kucuk        400
+    140000 kucuk        400
+    150000 kucuk        400
+    170000 kucuk        500
+    180000 kucuk        500
+    190000 kucuk        500
+    200000 kucuk        500
+   2800000 kucuk       1700
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1950.617 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+     30000 kucuk        174
+     50000 kucuk        224
+     60000 kucuk        245
+     70000 kucuk        265
+     80000 kucuk        283
+    100000 kucuk        317
+    110000 kucuk        332
+    120000 kucuk        347
+    130000 kucuk        361
+    140000 kucuk        375
+    150000 kucuk        388
+    170000 kucuk        413
+    180000 kucuk        425
+    190000 kucuk        436
+    200000 kucuk        448
+   2800000 kucuk       1674
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+     30000 kucuk        174
+     50000 kucuk        224
+     60000 kucuk        245
+     70000 kucuk        265
+     80000 kucuk        283
+    100000 kucuk        317
+    110000 kucuk        332
+    120000 kucuk        347
+    130000 kucuk        361
+    140000 kucuk        375
+    150000 kucuk        388
+    170000 kucuk        413
+    180000 kucuk        425
+    190000 kucuk        436
+    200000 kucuk        448
+   2800000 kucuk       1674
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1950.961 ; gain = 0.000
+add_bp {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} 17
+remove_bps -file {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} -line 17
+add_bp {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} 17
+remove_bps -file {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} -line 17
+add_bp {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} 16
+remove_bps -file {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} -line 16
+add_bp {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} 16
+add_bp {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} 17
+remove_bps -file {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} -line 16
+remove_bps -file {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v} -line 17
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 04:44:22 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 04:44:22 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 04:49:41 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 04:49:41 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 04:51:51 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 04:51:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 04:57:05 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 04:57:05 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 04:57:39 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 04:57:40 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737498A
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_karekok_behav -key {Behavioral:sim_1:Functional:tb_karekok} -tclbatch {tb_karekok.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_karekok.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_karekok_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+         1
+         2
+         1
+         2
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         6
+         7
+         8
+         9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 05:11:02 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 05:11:02 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737498A
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/controller.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_karekok_behav -key {Behavioral:sim_1:Functional:tb_karekok} -tclbatch {tb_karekok.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_karekok.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+         1
+         2
+         1
+         2
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         1
+         2
+         3
+         4
+         5
+         6
+         7
+         8
+         9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_karekok_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+         1
+         2
+       300
+         1
+         2
+         1
+         2
+         3
+       400
+         1
+         2
+         3
+       400
+         1
+         2
+         3
+       400
+         1
+         2
+         3
+       400
+         1
+         2
+         3
+         1
+         2
+         3
+         4
+       500
+         1
+         2
+         3
+         4
+       500
+         1
+         2
+         3
+         4
+       500
+         1
+         2
+         3
+         4
+       500
+         1
+         2
+         3
+         4
+       500
+         1
+         2
+         3
+         4
+       500
+         1
+         2
+         3
+         4
+         1
+         2
+         3
+         4
+         5
+       600
+         1
+         2
+         3
+         4
+         5
+       600
+         1
+         2
+         3
+         4
+         5
+       600
+         1
+         2
+         3
+         4
+         5
+       600
+         1
+         2
+         3
+         4
+         5
+         6
+         7
+         8
+         9
+        10
+        11
+        12
+        13
+        14
+        15
+        16
+        17
+      1800
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+       300
+       400
+       400
+       400
+       400
+       500
+       500
+       500
+       500
+       500
+       500
+       600
+       600
+       600
+       600
+      1800
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+     30000,        300
+     50000,        400
+     60000,        400
+     70000,        400
+     80000,        400
+    100000,        500
+    110000,        500
+    120000,        500
+    130000,        500
+    140000,        500
+    150000,        500
+    170000,        600
+    180000,        600
+    190000,        600
+    200000,        600
+   2800000,       1800
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+     30000,        200
+     50000,        300
+     60000,        300
+     70000,        300
+     80000,        300
+    100000,        400
+    110000,        400
+    120000,        400
+    130000,        400
+    140000,        400
+    150000,        400
+    170000,        500
+    180000,        500
+    190000,        500
+    200000,        500
+   2800000,       1700
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_karekok' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_karekok_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sources_1/new/karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module karekok
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.srcs/sim_1/new/tb_karekok.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_karekok
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c615fe0ecf6841fd825e8f982d1c00e1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_karekok_behav xil_defaultlib.tb_karekok xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.karekok
+Compiling module xil_defaultlib.tb_karekok
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_karekok_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+     30000,        100
+     30000,        101
+     30000,        102
+     30000,        103
+     30000,        104
+     30000,        105
+     30000,        106
+     30000,        107
+     30000,        108
+     30000,        109
+     30000,        110
+     30000,        111
+     30000,        112
+     30000,        113
+     30000,        114
+     30000,        115
+     30000,        116
+     30000,        117
+     30000,        118
+     30000,        119
+     30000,        120
+     30000,        121
+     30000,        122
+     30000,        123
+     30000,        124
+     30000,        125
+     30000,        126
+     30000,        127
+     30000,        128
+     30000,        129
+     30000,        130
+     30000,        131
+     30000,        132
+     30000,        133
+     30000,        134
+     30000,        135
+     30000,        136
+     30000,        137
+     30000,        138
+     30000,        139
+     30000,        140
+     30000,        141
+     30000,        142
+     30000,        143
+     30000,        144
+     30000,        145
+     30000,        146
+     30000,        147
+     30000,        148
+     30000,        149
+     30000,        150
+     30000,        151
+     30000,        152
+     30000,        153
+     30000,        154
+     30000,        155
+     30000,        156
+     30000,        157
+     30000,        158
+     30000,        159
+     30000,        160
+     30000,        161
+     30000,        162
+     30000,        163
+     30000,        164
+     30000,        165
+     30000,        166
+     30000,        167
+     30000,        168
+     30000,        169
+     30000,        170
+     30000,        171
+     30000,        172
+     30000,        173
+     30000,        174
+     50000,        200
+     50000,        201
+     50000,        202
+     50000,        203
+     50000,        204
+     50000,        205
+     50000,        206
+     50000,        207
+     50000,        208
+     50000,        209
+     50000,        210
+     50000,        211
+     50000,        212
+     50000,        213
+     50000,        214
+     50000,        215
+     50000,        216
+     50000,        217
+     50000,        218
+     50000,        219
+     50000,        220
+     50000,        221
+     50000,        222
+     50000,        223
+     50000,        224
+     60000,        200
+     60000,        201
+     60000,        202
+     60000,        203
+     60000,        204
+     60000,        205
+     60000,        206
+     60000,        207
+     60000,        208
+     60000,        209
+     60000,        210
+     60000,        211
+     60000,        212
+     60000,        213
+     60000,        214
+     60000,        215
+     60000,        216
+     60000,        217
+     60000,        218
+     60000,        219
+     60000,        220
+     60000,        221
+     60000,        222
+     60000,        223
+     60000,        224
+     60000,        225
+     60000,        226
+     60000,        227
+     60000,        228
+     60000,        229
+     60000,        230
+     60000,        231
+     60000,        232
+     60000,        233
+     60000,        234
+     60000,        235
+     60000,        236
+     60000,        237
+     60000,        238
+     60000,        239
+     60000,        240
+     60000,        241
+     60000,        242
+     60000,        243
+     60000,        244
+     60000,        245
+     70000,        200
+     70000,        201
+     70000,        202
+     70000,        203
+     70000,        204
+     70000,        205
+     70000,        206
+     70000,        207
+     70000,        208
+     70000,        209
+     70000,        210
+     70000,        211
+     70000,        212
+     70000,        213
+     70000,        214
+     70000,        215
+     70000,        216
+     70000,        217
+     70000,        218
+     70000,        219
+     70000,        220
+     70000,        221
+     70000,        222
+     70000,        223
+     70000,        224
+     70000,        225
+     70000,        226
+     70000,        227
+     70000,        228
+     70000,        229
+     70000,        230
+     70000,        231
+     70000,        232
+     70000,        233
+     70000,        234
+     70000,        235
+     70000,        236
+     70000,        237
+     70000,        238
+     70000,        239
+     70000,        240
+     70000,        241
+     70000,        242
+     70000,        243
+     70000,        244
+     70000,        245
+     70000,        246
+     70000,        247
+     70000,        248
+     70000,        249
+     70000,        250
+     70000,        251
+     70000,        252
+     70000,        253
+     70000,        254
+     70000,        255
+     70000,        256
+     70000,        257
+     70000,        258
+     70000,        259
+     70000,        260
+     70000,        261
+     70000,        262
+     70000,        263
+     70000,        264
+     70000,        265
+     80000,        200
+     80000,        201
+     80000,        202
+     80000,        203
+     80000,        204
+     80000,        205
+     80000,        206
+     80000,        207
+     80000,        208
+     80000,        209
+     80000,        210
+     80000,        211
+     80000,        212
+     80000,        213
+     80000,        214
+     80000,        215
+     80000,        216
+     80000,        217
+     80000,        218
+     80000,        219
+     80000,        220
+     80000,        221
+     80000,        222
+     80000,        223
+     80000,        224
+     80000,        225
+     80000,        226
+     80000,        227
+     80000,        228
+     80000,        229
+     80000,        230
+     80000,        231
+     80000,        232
+     80000,        233
+     80000,        234
+     80000,        235
+     80000,        236
+     80000,        237
+     80000,        238
+     80000,        239
+     80000,        240
+     80000,        241
+     80000,        242
+     80000,        243
+     80000,        244
+     80000,        245
+     80000,        246
+     80000,        247
+     80000,        248
+     80000,        249
+     80000,        250
+     80000,        251
+     80000,        252
+     80000,        253
+     80000,        254
+     80000,        255
+     80000,        256
+     80000,        257
+     80000,        258
+     80000,        259
+     80000,        260
+     80000,        261
+     80000,        262
+     80000,        263
+     80000,        264
+     80000,        265
+     80000,        266
+     80000,        267
+     80000,        268
+     80000,        269
+     80000,        270
+     80000,        271
+     80000,        272
+     80000,        273
+     80000,        274
+     80000,        275
+     80000,        276
+     80000,        277
+     80000,        278
+     80000,        279
+     80000,        280
+     80000,        281
+     80000,        282
+     80000,        283
+    100000,        300
+    100000,        301
+    100000,        302
+    100000,        303
+    100000,        304
+    100000,        305
+    100000,        306
+    100000,        307
+    100000,        308
+    100000,        309
+    100000,        310
+    100000,        311
+    100000,        312
+    100000,        313
+    100000,        314
+    100000,        315
+    100000,        316
+    100000,        317
+    110000,        300
+    110000,        301
+    110000,        302
+    110000,        303
+    110000,        304
+    110000,        305
+    110000,        306
+    110000,        307
+    110000,        308
+    110000,        309
+    110000,        310
+    110000,        311
+    110000,        312
+    110000,        313
+    110000,        314
+    110000,        315
+    110000,        316
+    110000,        317
+    110000,        318
+    110000,        319
+    110000,        320
+    110000,        321
+    110000,        322
+    110000,        323
+    110000,        324
+    110000,        325
+    110000,        326
+    110000,        327
+    110000,        328
+    110000,        329
+    110000,        330
+    110000,        331
+    110000,        332
+    120000,        300
+    120000,        301
+    120000,        302
+    120000,        303
+    120000,        304
+    120000,        305
+    120000,        306
+    120000,        307
+    120000,        308
+    120000,        309
+    120000,        310
+    120000,        311
+    120000,        312
+    120000,        313
+    120000,        314
+    120000,        315
+    120000,        316
+    120000,        317
+    120000,        318
+    120000,        319
+    120000,        320
+    120000,        321
+    120000,        322
+    120000,        323
+    120000,        324
+    120000,        325
+    120000,        326
+    120000,        327
+    120000,        328
+    120000,        329
+    120000,        330
+    120000,        331
+    120000,        332
+    120000,        333
+    120000,        334
+    120000,        335
+    120000,        336
+    120000,        337
+    120000,        338
+    120000,        339
+    120000,        340
+    120000,        341
+    120000,        342
+    120000,        343
+    120000,        344
+    120000,        345
+    120000,        346
+    120000,        347
+    130000,        300
+    130000,        301
+    130000,        302
+    130000,        303
+    130000,        304
+    130000,        305
+    130000,        306
+    130000,        307
+    130000,        308
+    130000,        309
+    130000,        310
+    130000,        311
+    130000,        312
+    130000,        313
+    130000,        314
+    130000,        315
+    130000,        316
+    130000,        317
+    130000,        318
+    130000,        319
+    130000,        320
+    130000,        321
+    130000,        322
+    130000,        323
+    130000,        324
+    130000,        325
+    130000,        326
+    130000,        327
+    130000,        328
+    130000,        329
+    130000,        330
+    130000,        331
+    130000,        332
+    130000,        333
+    130000,        334
+    130000,        335
+    130000,        336
+    130000,        337
+    130000,        338
+    130000,        339
+    130000,        340
+    130000,        341
+    130000,        342
+    130000,        343
+    130000,        344
+    130000,        345
+    130000,        346
+    130000,        347
+    130000,        348
+    130000,        349
+    130000,        350
+    130000,        351
+    130000,        352
+    130000,        353
+    130000,        354
+    130000,        355
+    130000,        356
+    130000,        357
+    130000,        358
+    130000,        359
+    130000,        360
+    130000,        361
+    140000,        300
+    140000,        301
+    140000,        302
+    140000,        303
+    140000,        304
+    140000,        305
+    140000,        306
+    140000,        307
+    140000,        308
+    140000,        309
+    140000,        310
+    140000,        311
+    140000,        312
+    140000,        313
+    140000,        314
+    140000,        315
+    140000,        316
+    140000,        317
+    140000,        318
+    140000,        319
+    140000,        320
+    140000,        321
+    140000,        322
+    140000,        323
+    140000,        324
+    140000,        325
+    140000,        326
+    140000,        327
+    140000,        328
+    140000,        329
+    140000,        330
+    140000,        331
+    140000,        332
+    140000,        333
+    140000,        334
+    140000,        335
+    140000,        336
+    140000,        337
+    140000,        338
+    140000,        339
+    140000,        340
+    140000,        341
+    140000,        342
+    140000,        343
+    140000,        344
+    140000,        345
+    140000,        346
+    140000,        347
+    140000,        348
+    140000,        349
+    140000,        350
+    140000,        351
+    140000,        352
+    140000,        353
+    140000,        354
+    140000,        355
+    140000,        356
+    140000,        357
+    140000,        358
+    140000,        359
+    140000,        360
+    140000,        361
+    140000,        362
+    140000,        363
+    140000,        364
+    140000,        365
+    140000,        366
+    140000,        367
+    140000,        368
+    140000,        369
+    140000,        370
+    140000,        371
+    140000,        372
+    140000,        373
+    140000,        374
+    140000,        375
+    150000,        300
+    150000,        301
+    150000,        302
+    150000,        303
+    150000,        304
+    150000,        305
+    150000,        306
+    150000,        307
+    150000,        308
+    150000,        309
+    150000,        310
+    150000,        311
+    150000,        312
+    150000,        313
+    150000,        314
+    150000,        315
+    150000,        316
+    150000,        317
+    150000,        318
+    150000,        319
+    150000,        320
+    150000,        321
+    150000,        322
+    150000,        323
+    150000,        324
+    150000,        325
+    150000,        326
+    150000,        327
+    150000,        328
+    150000,        329
+    150000,        330
+    150000,        331
+    150000,        332
+    150000,        333
+    150000,        334
+    150000,        335
+    150000,        336
+    150000,        337
+    150000,        338
+    150000,        339
+    150000,        340
+    150000,        341
+    150000,        342
+    150000,        343
+    150000,        344
+    150000,        345
+    150000,        346
+    150000,        347
+    150000,        348
+    150000,        349
+    150000,        350
+    150000,        351
+    150000,        352
+    150000,        353
+    150000,        354
+    150000,        355
+    150000,        356
+    150000,        357
+    150000,        358
+    150000,        359
+    150000,        360
+    150000,        361
+    150000,        362
+    150000,        363
+    150000,        364
+    150000,        365
+    150000,        366
+    150000,        367
+    150000,        368
+    150000,        369
+    150000,        370
+    150000,        371
+    150000,        372
+    150000,        373
+    150000,        374
+    150000,        375
+    150000,        376
+    150000,        377
+    150000,        378
+    150000,        379
+    150000,        380
+    150000,        381
+    150000,        382
+    150000,        383
+    150000,        384
+    150000,        385
+    150000,        386
+    150000,        387
+    150000,        388
+    170000,        400
+    170000,        401
+    170000,        402
+    170000,        403
+    170000,        404
+    170000,        405
+    170000,        406
+    170000,        407
+    170000,        408
+    170000,        409
+    170000,        410
+    170000,        411
+    170000,        412
+    170000,        413
+    180000,        400
+    180000,        401
+    180000,        402
+    180000,        403
+    180000,        404
+    180000,        405
+    180000,        406
+    180000,        407
+    180000,        408
+    180000,        409
+    180000,        410
+    180000,        411
+    180000,        412
+    180000,        413
+    180000,        414
+    180000,        415
+    180000,        416
+    180000,        417
+    180000,        418
+    180000,        419
+    180000,        420
+    180000,        421
+    180000,        422
+    180000,        423
+    180000,        424
+    180000,        425
+    190000,        400
+    190000,        401
+    190000,        402
+    190000,        403
+    190000,        404
+    190000,        405
+    190000,        406
+    190000,        407
+    190000,        408
+    190000,        409
+    190000,        410
+    190000,        411
+    190000,        412
+    190000,        413
+    190000,        414
+    190000,        415
+    190000,        416
+    190000,        417
+    190000,        418
+    190000,        419
+    190000,        420
+    190000,        421
+    190000,        422
+    190000,        423
+    190000,        424
+    190000,        425
+    190000,        426
+    190000,        427
+    190000,        428
+    190000,        429
+    190000,        430
+    190000,        431
+    190000,        432
+    190000,        433
+    190000,        434
+    190000,        435
+    190000,        436
+    200000,        400
+    200000,        401
+    200000,        402
+    200000,        403
+    200000,        404
+    200000,        405
+    200000,        406
+    200000,        407
+    200000,        408
+    200000,        409
+    200000,        410
+    200000,        411
+    200000,        412
+    200000,        413
+    200000,        414
+    200000,        415
+    200000,        416
+    200000,        417
+    200000,        418
+    200000,        419
+    200000,        420
+    200000,        421
+    200000,        422
+    200000,        423
+    200000,        424
+    200000,        425
+    200000,        426
+    200000,        427
+    200000,        428
+    200000,        429
+    200000,        430
+    200000,        431
+    200000,        432
+    200000,        433
+    200000,        434
+    200000,        435
+    200000,        436
+    200000,        437
+    200000,        438
+    200000,        439
+    200000,        440
+    200000,        441
+    200000,        442
+    200000,        443
+    200000,        444
+    200000,        445
+    200000,        446
+    200000,        447
+    200000,        448
+   2800000,       1600
+   2800000,       1601
+   2800000,       1602
+   2800000,       1603
+   2800000,       1604
+   2800000,       1605
+   2800000,       1606
+   2800000,       1607
+   2800000,       1608
+   2800000,       1609
+   2800000,       1610
+   2800000,       1611
+   2800000,       1612
+   2800000,       1613
+   2800000,       1614
+   2800000,       1615
+   2800000,       1616
+   2800000,       1617
+   2800000,       1618
+   2800000,       1619
+   2800000,       1620
+   2800000,       1621
+   2800000,       1622
+   2800000,       1623
+   2800000,       1624
+   2800000,       1625
+   2800000,       1626
+   2800000,       1627
+   2800000,       1628
+   2800000,       1629
+   2800000,       1630
+   2800000,       1631
+   2800000,       1632
+   2800000,       1633
+   2800000,       1634
+   2800000,       1635
+   2800000,       1636
+   2800000,       1637
+   2800000,       1638
+   2800000,       1639
+   2800000,       1640
+   2800000,       1641
+   2800000,       1642
+   2800000,       1643
+   2800000,       1644
+   2800000,       1645
+   2800000,       1646
+   2800000,       1647
+   2800000,       1648
+   2800000,       1649
+   2800000,       1650
+   2800000,       1651
+   2800000,       1652
+   2800000,       1653
+   2800000,       1654
+   2800000,       1655
+   2800000,       1656
+   2800000,       1657
+   2800000,       1658
+   2800000,       1659
+   2800000,       1660
+   2800000,       1661
+   2800000,       1662
+   2800000,       1663
+   2800000,       1664
+   2800000,       1665
+   2800000,       1666
+   2800000,       1667
+   2800000,       1668
+   2800000,       1669
+   2800000,       1670
+   2800000,       1671
+   2800000,       1672
+   2800000,       1673
+   2800000,       1674
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 05:31:49 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 05:31:49 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Aug  5 05:35:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/synth_1/runme.log
+[Fri Aug  5 05:35:33 2022] Launched impl_1...
+Run output will be captured here: C:/Users/hasan/Desktop/TOBB CS Hasan TUNA/21-22/SUMMER/BIL265/Project/Project_Final/Project_Final.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Aug  5 05:52:27 2022...

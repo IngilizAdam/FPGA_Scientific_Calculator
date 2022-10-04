@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1660503033">
+  <File Type="ROUTE-PWR" Name="kontrolcu_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="kontrolcu.tcl"/>
+  <File Type="BITSTR-BMM" Name="kontrolcu_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="kontrolcu_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="kontrolcu_reports.tcl"/>
+  <File Type="OPT-DCP" Name="kontrolcu_opt.dcp"/>
+  <File Type="OPT-DRC" Name="kontrolcu_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="kontrolcu.hwdef"/>
+  <File Type="PWROPT-DCP" Name="kontrolcu_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="kontrolcu_placed.dcp"/>
+  <File Type="PLACE-IO" Name="kontrolcu_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="kontrolcu_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="kontrolcu_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="kontrolcu_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="kontrolcu_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="kontrolcu.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="kontrolcu_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="kontrolcu.bin"/>
+  <File Type="PHYSOPT-DCP" Name="kontrolcu_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="kontrolcu.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="kontrolcu_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="kontrolcu_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="kontrolcu_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="kontrolcu_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="kontrolcu_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="kontrolcu_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="kontrolcu.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="kontrolcu_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="kontrolcu.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="kontrolcu_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="kontrolcu_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="kontrolcu.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="kontrolcu_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="kontrolcu_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="kontrolcu_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="kontrolcu_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="kontrolcu_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="kontrolcu_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="kontrolcu_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="kontrolcu_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="kontrolcu_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="kontrolcu_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="kontrolcu_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="kontrolcu_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="kontrolcu.bit"/>
+  <File Type="BITSTR-RBT" Name="kontrolcu.rbt"/>
+  <File Type="BITSTR-NKY" Name="kontrolcu.nky"/>
+  <File Type="BG-DRC" Name="kontrolcu.drc"/>
+  <File Type="RDI-RDI" Name="kontrolcu.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/asal_sayi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cos.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ekran.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/karekok.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sin.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/kontrolcu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="kontrolcu"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
